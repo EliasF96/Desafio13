@@ -1,0 +1,21 @@
+-JSX es la fusion de JavaScript+HTML. No es lo mismo que meter un <script> en html. Es una funcion que retorna HTML
+
+-COMANDOS DE TERMINAL:
+npm BUSCA EL JSON DEL PAQUETE, AL SECTOR "SCRIPTS" Y EJECUTA EL PARAMETRO QUE LE SIGUE A RUN. EJ: start
+
+-ETIQUETAS:
+CUANDO RETORNAMOS MAS DE UN ELEMENTO O ETIQUETAS, DEBEMOS USAR FRAGMENTOS <></>, ES LO MISMO CON UN DIV, A DIFERENCIA QUE FRAGMENTO LO GUARDE EN UNO PRINCIPAL Y EL OTRO LO GUARDA DENTRO DE OTRO DIV
+
+-VENTAJAS:
+-Facilita la escritura d componentes
+-Integramos con JS
+-Facilita la creacion de arboles de elementnos
+
+UN COMPONENETE ES UNA FUNCION QUE DEVUELVE ALGO
+CUANDO CREAMOS UNO PODEMOS AGREGARLE OTRO COMPONENTE TAL ASI EJ: COMPONENTE 1 DENTRO DE COMPOENENTE 2
+
+hook UseState:
+-Para usarlo se crea una constante que se define un [nombreEstado , nombreFuncion] = UseState("VALOR POR DEFECTO")
+-Para inputs agregamos al dicho input onChange={}(ejecutamos una funcion del evento)
+
+Podemos dar estilos al HTML siempre y cuando usemos className. tambien podemos condicionar para que se cumpla ciertas clases con un condicional entre {} 
